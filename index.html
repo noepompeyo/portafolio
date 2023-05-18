@@ -4,10 +4,115 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <!-- <a href="./pages/home.html">home</a> -->
+       <header>
+        <nav>
+            <a href=""><h1>Noe Pompeyo</h1></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://noepm.vercel.app/" target="_blank">Blog</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="main-home">
+        <section id="home" class="home">
+          <section class="home-title">
+              <p>Welcome my portafolio</p>
+              <h1>Hi! I'm Frontend <br> Developer</h1>
+              <a href=""><button>Curriculum</button></a>
+          </section>
+          <section class="home-img">
+              <img src="/person.png" alt="persona sentada con computadora">
+          </section>
+      </section>
+      </section>
+        
+        <section class="mouse">
+            <span><img src="/mouse.svg" alt="imagen de mause"></span>
+            <span><img src="/arrow.svg" alt=""></span>
+        </section>
+        
+    
+
+    <!--<a href="./pages/about.html">about</a> -->
+    <h1 class="sobre-mi__h1">Sobre mí</h1>
+    <section class="main-sobre-mi">
+      <section id="sobre-mi" class="sobre-mi">
+        <section class="sobre-mi imagen">
+            <img src="/noe-pompeyo.png" alt="imagen de noe">
+        </section>
+        <section class="sobre-mi-descripcion">
+            <section class="quien-soy">
+                <p>Quien soy yo..</p>
+            <h2>Hola</h2>
+            <p>mi nombre es Noe Pompeyo, soy Mexicano, originario de veracruz, actualmente vivo en Guadalajara y soy desarrollador frontend, llevo ya dos años aprendiendo tecnologias que me permiten crear en la web.
+                <br>
+                Mi especialidad en programacion es crear proyectos con Javascript, GitHub, actualmente estoy aprendiendo ReactJS y NextJS
+                <br>
+        
+                </p>
+            </section>
+            
+        </section>
+    </section>
+    </section>
+    
+
+   <!-- <a href="./pages/proyecto.html">proyecto</a> -->
+   <h1 class="proyecto-h1">Proyectos</h1>
+        <section id="proyectos" class="proyectos">
+            <section class="cards">
+                <article class="cards-item">
+                    <section>
+                        <img class="cards-item-img" src="/rick-and-moty.jpg" alt="">
+                    </section>
+                    <section>
+                        <h3>Rick and Morty</h3>
+                        <p>Spa desarrollada con Javascript vanilla,HTML y CSS.
+                            <br> seleciona a tu presonaje y obten sus caracteristicas
+                        </p>
+                        <span><img src="/github.svg" alt="logo de github"></span>
+                    </section>
+
+                </article>
+                <article class="cards-item">
+                    <section>
+                        <img class="cards-item-img" src="/movie-rest.jpg" alt="">
+                    </section>
+                    <section>
+                        <h3>Search Movie</h3>
+                        <p>En este proyecto se consumio un API de internet de peliculas con Javascript vanilla.                      
+                        </p>
+                        <span><img src="/github.svg" alt="logo de github"></span>
+                    </section>
+
+                </article>
+                <article class="cards-item">
+                    <section>
+                        <img class="cards-item-img" src="/miblog.jpg" alt="">
+                    </section>
+                    <section>
+                        <h3>Mi blog</h3>
+                        <p>Mi blog lo cree con React, Chakra UI, Markdown MDX, y NextJS
+                        </p>
+                        <span><img src="/github.svg" alt="logo de github"></span>
+                    </section>
+
+                </article>
+
+            </section>
+        </section>
+    </main>
+
+    
+    <!-- <div id="app"></div> -->
+    <!-- <script type="module" src="/main.js"></script> -->
   </body>
 </html>
