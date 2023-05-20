@@ -35,18 +35,7 @@ nav {
   width: 800px;
   padding: 1.4rem;
 }
-@media (max-width:325px) {
-  header {
-    display: flex;
-  }
-  .nav-list {
-    display: none;
-  }
-  nav {
-    display: flex; 
-      
-  }
-}
+
 
 nav ul {
   display: flex;
@@ -109,37 +98,7 @@ nav button a {
   padding: 10px 20px;
   border-radius: 12px;
 }
-@media (max-width: 325px) {
-  .main-home {
-    display: flex;
-    flex-direction: column;   
-    width: 320px; 
-  }
-  .home {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    margin: 0;
-    
-}
-.home-title {
-  align-items: center;
-}
-.home-title p {
-  margin-top: 1rem;
-}
-.home-title,
-.home-img {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
 
-}
-.home-title a {
-  display: none;
-}
-
-}
 
 .mouse {
   display: flex;
@@ -164,11 +123,7 @@ nav button a {
   width: 20px;
   height: 20px;
 }
-@media (max-width: 325px) {
-  .mouse {
-    margin: 40px 0;
-  }
-}
+
 .main-sobre-mi {
   display: grid;
   place-content: center;
@@ -214,28 +169,7 @@ nav button a {
 .quien-soy {
   padding: 40px;
 }
-@media (max-width:325px) {
-  .sobre-mi {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-  }
-  .sobre-mi .imagen {
-    justify-content: center;
-  }
-  .sobre-mi .imagen img {
-    width: 150px;
-    height: 150px;
-    border-radius: 24px;
-  }
-  .sobre-mi-descripcion {
-    padding: 0;
-  }
-  .quien-soy {
-    padding: 20px;
-  }
 
-}
 .proyecto-h1 {
   text-align: center;
   padding: 40px 0;
@@ -275,7 +209,79 @@ nav button a {
   width: 28px;
   height: 28px;
 }
-@media (max-width:325px) {
+
+
+@media (max-width:340px) {
+  header {
+    display: flex;
+  }
+  .nav-list {
+    display: none;
+  }
+  nav {
+    display: flex; 
+      
+  }
+}
+@media (max-width: 340px) {
+  .main-home {
+    display: flex;
+    flex-direction: column;   
+    width: 320px; 
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0;
+    
+}
+.home-title {
+  align-items: center;
+}
+.home-title p {
+  margin-top: 1rem;
+}
+.home-title,
+.home-img {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+
+}
+.home-title a {
+  display: none;
+}
+
+}
+@media (max-width: 340px) {
+  .mouse {
+    margin: 40px 0;
+  }
+}
+@media (max-width:340px) {
+  .sobre-mi {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  .sobre-mi .imagen {
+    justify-content: center;
+  }
+  .sobre-mi .imagen img {
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+  }
+  .sobre-mi-descripcion {
+    padding: 0;
+  }
+  .quien-soy {
+    padding: 20px;
+  }
+
+}
+@media (max-width:340px) {
   .proyecto-h1 {
     padding: 20px 0;
     margin-top: 0;
