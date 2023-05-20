@@ -215,6 +215,7 @@ nav button a {
   header {
     display: flex;
     width: 100%;
+    margin-bottom: 20px;
   }
   .nav-list {
     display: none;
@@ -240,9 +241,10 @@ nav button a {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0;    
+    margin: 0 auto;    
 }
 .home-title {
+  margin: 0 auto;
   align-items: center;
 }
 .home-title p {
@@ -252,7 +254,7 @@ nav button a {
 .home-img {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
 
 }
 .home-title a {
@@ -270,7 +272,8 @@ nav button a {
   .sobre-mi {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
   }
   .sobre-mi .imagen {
     justify-content: center;
@@ -296,7 +299,7 @@ nav button a {
   .proyectos {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   .cards {
