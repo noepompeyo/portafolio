@@ -211,7 +211,7 @@ nav button a {
 }
 
 
-@media (max-width:340px) {
+@media screen and  (max-width:340px) {
   header {
     display: flex;
   }
@@ -223,7 +223,7 @@ nav button a {
       
   }
 }
-@media (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .main-home {
     display: flex;
     flex-direction: column;   
@@ -254,12 +254,12 @@ nav button a {
 }
 
 }
-@media (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .mouse {
     margin: 40px 0;
   }
 }
-@media (max-width:340px) {
+@media screen and (max-width:340px) {
   .sobre-mi {
     display: flex;
     flex-direction: column;
@@ -281,7 +281,7 @@ nav button a {
   }
 
 }
-@media (max-width:340px) {
+@media screen and (max-width:340px) {
   .proyecto-h1 {
     padding: 20px 0;
     margin-top: 0;
